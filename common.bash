@@ -176,6 +176,7 @@ alias delpyc='find . -iname \*pyc -delete'
 alias webshare='python -m "SimpleHTTPServer 8080"'
 alias pretty-json='python -mjson.tool'
 alias v='vagrant'
+alias ll="ls -lah"
 
 # Find a file with a pattern in name:
 function ff() { find . -type f -iname '*'$*'*' -ls ; }
