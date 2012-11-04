@@ -29,8 +29,9 @@ complete -o default -o nospace -F _virtualenvs rmvirtualenv
 
 # path setup
 export GEM_HOME=$HOME/.gems
+export SLASH_BIN_HOME=$HOME/dot-bin
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:$GEM_HOME:$PATH
-export PATH=$HOME/dot-bin:/usr/local/sbin:/usr/local/share/python:$PATH
+export PATH=$SLASH_BIN_HOME:/usr/local/sbin:/usr/local/share/python:$PATH
 
 # git completion
 source $BASH_ROOT/git-completion.bash
